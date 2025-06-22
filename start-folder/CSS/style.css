@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+*{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+header {
+    background-color: #ff4500;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.nav_list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav_list li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav_list li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+.skills {
+    background-color: #ff7f50;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill-list {
+    list-style: none;
+    font-weight: bold;
+    color: white;
+}
+
+.skill-list {
+    background: #ff0000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-table;
+}
+
+.portfolio {
+    background-color: #ffa500;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio p {
+    margin-bottom: 15px;
+}
+.my-work {
+    display: flex;
+}
+
+.my-work img {
+    width: 400px;
+    height: 320px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+}
+
+button {
+    width: 200px;
+    margin-bottom: 25px;
+    background-color: #ff0000;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ff0000;
+    color: white;
+    margin-top: 30px;
+}
