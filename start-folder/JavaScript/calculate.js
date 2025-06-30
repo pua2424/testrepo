@@ -47,5 +47,5 @@ function calculate() {
 
     // 計算式と結果を表示
     formulaArea.textContent = `計算式：${val1} ${symbol} ${val2}`;
-    resultArea.textContent = `計算国家：${result}`;
+    resultArea.textContent = `計算結果：${result}`;
 }
